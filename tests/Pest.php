@@ -1,0 +1,5 @@
+<?php
+
+use Nazmul\Paperfly\Tests\TestCase;
+
+uses(TestCase::class)->in(__DIR__);
