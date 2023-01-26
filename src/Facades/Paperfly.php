@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Facade;
  */
 class Paperfly extends Facade
 {
-    protected static function getFacadeAccessor()
+    protected static function getFacadeAccessor(): string
     {
         return \Nazmul\Paperfly\Paperfly::class;
     }
